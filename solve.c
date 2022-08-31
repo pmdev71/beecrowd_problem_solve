@@ -2,9 +2,9 @@
 
 int main()
 {
-    int A,B,X;
-    scanf("%d%d",&A,&B);
-    X=A+B;
-    printf("X = %d\n",X);
+    double R,A;
+    scanf("%lf",&R);
+    A=3.14159*R*R;
+    printf("A=%.4lf\n",A);
     return 0;
 }
