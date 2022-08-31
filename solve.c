@@ -1,10 +1,12 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main()
+int main ()
+
 {
-    double R,A;
-    scanf("%lf",&R);
-    A=3.14159*R*R;
-    printf("A=%.4lf\n",A);
+    int A,B,SOMA;
+    scanf("%d%d",&A,&B);
+    SOMA=A+B;
+    printf("SOMA = %d\n",SOMA);
     return 0;
+
 }
