@@ -1,10 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
+int main ()
 
-int main()
 {
-    int A,B,X;
+    int A,B,PROD;
     scanf("%d%d",&A,&B);
-    X=A+B;
-    printf("X = %d\n",X);
+    PROD=A*B;
+    printf("PROD = %d\n",PROD);
     return 0;
+
 }
