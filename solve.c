@@ -2,10 +2,10 @@
 int main ()
 
 {
-    float A,B,C,media;
-    scanf("%f%f%f",&A,&B,&C);
-    media=(((A*2)+(B*3)+(C*5))/(2+3+5));
-    printf("MEDIA = %.1f\n",media);
+    int A,B,C,D,sub;
+    scanf("%d%d%d%d",&A,&B,&C,&D);
+    sub=((A*B)-(C*D));
+    printf("DIFERENCA = %d\n",sub);
     return 0;
 
 }
