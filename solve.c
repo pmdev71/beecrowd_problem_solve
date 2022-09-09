@@ -2,13 +2,12 @@
 int main ()
 
 {
-    int e_number,w_hour;
-    float a_hour,salary;
-    scanf("%d%d%f",&e_number,&w_hour,&a_hour);
-    salary=w_hour*a_hour;
-    printf("NUMBER = %d\n",e_number);
-    printf("SALARY = U$ %.2f\n",salary);
+    char name;
+    double s,e,sum;
+    scanf("%s %lf %lf", &name, &s, &e);
+    sum= s+e*.15;
+    printf("TOTAL = R$ %.2lf\n", sum);
     return 0;
-
 }
+
 
